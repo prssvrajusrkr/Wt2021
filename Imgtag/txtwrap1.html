@@ -1,0 +1,40 @@
+
+
+     <HTML>
+          <HEAD>
+               <TITLE>
+                   Using the &1t;IMG&gt; tag.
+               </TITLE>
+          </HEAD>
+
+          <BODY>
+               <CENTER>
+                   <H1>
+                        Text Wrapping aroung Images
+                   </H1>
+               </CENTER>
+
+               This example is all about letting text flow around images.
+
+               <IMG SRC="flower.jpg"
+                   WIDTH=85 HEIGHT=129 ALIGN=RIGHT>
+
+
+               Here's a case where the image is on the right and the text is on the left.
+               Notice how the text seems to flow around the image.Now I use &lt;BR CLEAR=RIGHT&gt;,
+
+               <BR CLEAR=RIGHT>
+               
+               <IMG SRC="flower.jpg"
+                   WIDTH=85 HEIGHT=129 ALIGN=LEFT>
+                 
+               Which skips to a point where the right margin is free again.Now the right margin is clear.
+               but there's an image to the left.I can skip to a point where the left margin is clear 
+               again with &lt;BR CLEAR=RIGHT&gt;,
+           
+               <BR CLEAR=LEFT>
+
+               Which means that this text will continue after the image when the left margin is clear again.
+
+          </BODY>
+     </HTML>
