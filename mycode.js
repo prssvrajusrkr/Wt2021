@@ -1,0 +1,4 @@
+function mycode()
+{
+  alert("Testing");
+}
