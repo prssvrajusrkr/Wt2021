@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script>
+            function reverse()  
+            {
+              var rev=0;
+              var num =parseInt(document.getElementById("tx").value);
+              
+              while(num>0)
+              {
+                  d=num%10;
+                  rev=rev*10+d;
+                  num=Math.floor(num/10);
+              }
+              document.getElementById("res").innerHTML = "Reverse is  : " +rev;             
+            }        
+        </script>
+    </head>
+    <body>
+        <from >
+            Number : <input type="text" id="tx"></br>
+            <input type="button" value="reverse"  onclick="reverse()">
+            <p id="res"></p>
+        </from>
+    </body>
+</html>
