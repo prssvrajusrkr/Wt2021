@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function fib()  
+            {
+                var num =parseInt(document.getElementById("tx").value);
+                alert(num);
+                var n1=0,n2=1
+                
+                var acc=null ;
+                for(i=0;i<num;i++)
+                {
+                    acc = acc+"<br>"+n1;
+                    n3=n1+n2;
+                    n1=n2;
+                    n2=n3;
+
+                }
+                document.getElementById("res").innerHTML = acc;
+            }        
+        </script>
+    </head>
+    <body>
+        <from >
+            Number : <input type="text" id="tx"></br>
+            <input type="button" value="Fib"  onclick="fib()">
+            <p id="res"></p>
+        </from>
+    </body>
+</html>

@@ -5,6 +5,4 @@ function mycode()
     var c=parseInt(a)+parseInt(b);
     var res=document.getElementById("res");
     res.innerHTML="Additon of : "+a+"and "+b+" is  : "+c;
-    
-
 }
