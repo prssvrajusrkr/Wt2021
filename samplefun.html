@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script>
+           function sayHello(someName) 
+            {
+                //var str = "raghu"; 
+                //alert(str.indexOf('r'));
+                var usr= document.forms[0].elements[0].value;
+                alert("Welcome"+usr);
+            }
+            function update()
+            {
+                var str=document.getElementById("txt");
+                str.value = str.value.toUpperCase();
+            }
+
+        </script>
+    </head>
+    <body>
+        <form>
+            <input id="txt" type="text" onblur="update()">
+        
+
+
+            <input type="button" onclick="sayHello('srkr engineering college')" value="Click">
+        </form>
+    
+    </body>
+</html>
