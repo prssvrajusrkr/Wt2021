@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script>
+            function mycode()
+            {
+                //var name1=document.forms[1].elements["tx1"].value;
+                //var name2=document.forms[1].elements["tx2"].value;
+
+                //alert("Entered E1 : "+name1+"Entered E2 : "+name2);
+                var nv = navigator;
+                alert(nv.appVersion);
+                history.go("http://wwww.google.com");
+            }            
+        </script>
+        
+    </head>
+    <body>
+        <form name="myform">
+            <input type="text" name="tx1">
+            <input type="text" name="tx2">  
+        </form>
+
+        <form >
+            <input type="text" name="tx1">
+            <input type="text" name="tx2">  
+        </form>
+        <input type="button" value="click" onclick="mycode()">
+    </body>
+</html>
