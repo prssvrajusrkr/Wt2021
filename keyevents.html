@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script type="text/javascript" language="javascript">
+            function upd(instr) {
+                document.forms[0].statusbox.value += instr + "; ";
+            }
+        </script>
+    </head>
+    <body>
+        <form action="#">
+            <input type="text" name="box1" onkeypress="upd('keypress')"
+                                           onkeydown="upd('keydown')"
+                                           onkeyup="upd('keyup')"><br><br>
+            Event firing order:
+            <input type="text" name="statusbox" size="40">
+        </form>
+    </body>
+
+</html>
+
+
+    
