@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script type="text/javascript" language="javascript">
+            function changeimage(num) {
+                var img = document.getElementById("SampleImage");
+                if (num == 1) 
+                {
+                     img.src = "first.jpg";
+                } else 
+                {
+                    img.src = "second.jpg";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <img src= "first.jpg" id="SampleImage" alt="Sample image" onmouseover="changeimage(1)" onmouseout="changeimage(2)" >
+    </body>
+</html>
