@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jntu [
+   <!ELEMENT jntu (student+)>
+   <!ELEMENT student (name,branch,college)>
+   <!ELEMENT  name (#PCDATA)>
+   <!ELEMENT  branch (#PCDATA)>
+   <!ELEMENT  college (#PCDATA)>
+]>
+<jntu>
+    <student>
+        <name>e9</name>
+        <branch>it</branch>
+        <college>srkr</college>
+    </student>
+    <student>
+        <name>F1</name>
+        <branch>it</branch>
+        <college>srkr</college>
+    </student>
+    <student>
+        <name>F2</name>
+        <branch>it</branch>
+        <college>srkr</college>
+    </student>
+    <student>
+        <name>F3</name>
+        <branch>it</branch>
+        <college>srkr</college>
+    </student>
+</jntu>
