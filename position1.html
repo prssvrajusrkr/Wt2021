@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script>
+            function mycode()
+            {
+
+
+             /* var imgobj = document.getElementById("myimg").style
+              if(imgobj.visibility == "visible")
+              {
+                imgobj.visibility = "hidden";
+              }
+              else
+              {
+                imgobj.visibility = "visible";
+              }*/
+
+              var x = document.getElementById("x").value;
+              var y = document.getElementById("y").value;
+              alert(x);
+              var imgobj = document.getElementById("myimg").style;
+              imgobj.top = parseInt(x)+"px";
+              imgobj.left = parseInt(y)+"px";
+
+            }
+        </script>
+    </head>
+    <body>
+        <img style = "position: absolute; " src = "first.jpg"  id ="myimg" width=100 height=100><br>
+        X- Coordinate:<input type="text" id ="x"><br>
+        Y- Coordinate:<input type="text" id ="y"><br>
+        <input type="button" onclick="mycode()" value="click"> 
+    </body>
+</html>
