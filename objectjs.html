@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            var shape={
+                width : 10,
+                height :20,
+                getArea : function()
+                {
+                    return this.width * this.height;
+                }       
+            }
+            alert(shape.width);
+            alert(shape.getArea()); // changed the property
+            
+            shape.width =50;
+            alert(shape.getArea()); //
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
