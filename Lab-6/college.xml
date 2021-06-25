@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="mycode.xsl"?>
+<college>
+    <branch>
+        <name>it</name>
+        <strength>180</strength>
+    </branch>
+    <branch>
+        <name>cse</name>
+        <strength>360</strength>
+    </branch>
+    <branch>
+        <name>ece</name>
+        <strength>360</strength>
+    </branch>
+    <branch>
+        <name>civil</name>
+        <strength>300</strength>
+    </branch>
+</college>
